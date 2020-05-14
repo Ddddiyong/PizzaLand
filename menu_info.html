@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="ViewPort" content="width=device-width, initial-scale=1,0">
+        <title>세상의 모든 즐거움! 피자랜드</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="css/menu.css" type="text/css" rel="stylesheet">
+        <!-- 제이쿼리 라이브러리 -->
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <!-- 사용자 자바스크립트 -->
+        <script src="js/menu-info.js"></script>
+    </head>
+
+    <style>
+       
+    </style>
+
+    <body>
+        <!--로고-->
+        <div class="header_wrap">
+            <header id="main_header">
+                <h1><a href="index.html"><img src="img/pl_logo.png" alt="logo"></a></h1>
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><img class="gnb-icon" src="img/menu1.png" alt="메뉴아이콘"></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!--하단 메뉴-->
+        <div id="top-menu">
+            <nav id="nav-top">
+                <ul>
+                    <li><a href="menu.html" class="selected">메뉴소개</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">매장안내</a></li>
+                    <li><a href="#">브랜드스토리</a></li>
+                    <li><a href="#">창업안내</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--상단 배너-->
+        <div id="visual-img">
+                <img src="img/banner12.jpg" class="slide-1">
+        </div>
+
+        <!--메뉴-->
+        <div id="main-menu">
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#" class="selected" id="new-m">신메뉴</a></li>
+                    <li><a href="#" id="plus-m">플러스박스</a></li>
+                    <li><a href="#" id="two-m">투탑박스</a></li>
+                    <li><a href="#" id="chicago-m">시카고 피자</a></li>
+                    <li><a href="#" id="classic-m">클래식 피자</a></li>
+                    <li><a href="#" id="premium-m">프리미엄 피자</a></li>
+                    <li><a href="#" id="monster-m">몬스터 피자</a></li>
+                    <li><a href="#" id="side-m">사이드</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--메뉴1-->
+        <div id="menu1">
+            <div id="menu-head">
+                <h4>본 가격은 방문포장 및 홀 주문시 가격입니다.</h4>
+            </div>
+            <div class="menu-body">
+                <!--신 메뉴-->
+                <div class="menu-box">
+                    <img src="img/new-fire.png">
+                    <h3>마닭(불닭발)</h3>
+                    <h2>7,000원</h2>
+                    <a href="menu_info.html"><div class="menu-box2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div></a>
+                </div>
+                
+                <div class="menu-box4">
+                    
+                </div>
+                
+                <div class="menu-box4">
+                    
+                </div>
+                <!--신 메뉴 끝-->
+
+                <!-- 플러스 박스 메뉴 -->
+                <div class="menu-box-1">
+                    <img src="img/plp1.png">
+                    <h3>플러스박스 SET 1<br>(깐풍피자 R + 포테이토피자 L)</h3>
+                    <h2>16,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu-box-1">
+                    <img src="img/plp2.png">
+                    <h3>플러스박스 SET 2<br>(깐풍피자 R + 고구마피자 L)</h3>
+                    <h2>16,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="menu-box1-3">
+                    <img src="img/plp3.png">
+                    <h3>플러스박스 SET 3<br>(깐풍피자 R + 스테이크 불갈비 피자 L)</h3>
+                    <h2>18,900원</h2>
+                    <a href="menu_info.html">
+                      <div class="menu-box-2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                      </div>
+                    </a>
+                </div>
+                <!-- 플러스메뉴 끝 -->
+
+                <!--투탑박스 메뉴-->
+                <div class="menu-box-1-1">
+                    <img src="img/two1.png">
+                    <h3>투탑박스 SET 1<br>(콤비네이션피자 R + 이탈리안치즈피자 R)</h3>
+                    <h2>12,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-box-1-1">
+                    <img src="img/two2.png">
+                    <h3>투탑박스 SET 2<br>(페퍼로니피자 R + 불고기 피자 L)</h3>
+                    <h2>13,900원</h2>
+                    <a href="menu_info.html">
+                      <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                      </div>
+                    </a>
+                </div>
+                <div class="menu-box1-3-1">
+                    <img src="img/two3.png">
+                    <h3>투탑박스 SET 3<br>(페퍼로니피자 R + 몬스터 콤피네이션 피자 R)</h3>
+                    <h2>15,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-box-1-1">
+                    <img src="img/two4.png">
+                    <h3>투탑박스 SET 4<br>(포테이토 피자 R + 스테이크 불갈비 피자 R)</h3>
+                    <h2>16,500원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-box-1-1">
+                    <img src="img/two5.png">
+                    <h3>투탑박스 SET 5<br>(치킨텐더 피자 R + 스테이크 불갈비 피자 R)</h3>
+                    <h2>17,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <!--투탑박스 메뉴 끝-->
+
+                <!--시카고피자 메뉴-->
+                <div class="menu-box-1-2">
+                    <img src="img/chp1.png">
+                    <h3>BBQ 리얼 시카고 시즌 2</h3>
+                    <h2>18,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-box-1-2">
+                    <img src="img/chp2.png">
+                    <h3>리얼 시카고 오리지널 피자</h3>
+                    <h2>15,900원</h2>
+                    <a href="menu_info.html">
+                        <div class="menu-box-2">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                        </div>
+                    </a>
+                </div>
+                <!--시카고피자 메뉴 끝-->
+
+                <!--클래식피자 메뉴-->
+                <div class="menu-box1-2">
+                    <img src="img/cp1.png">
+                    <h3>이탈리안 치즈 피자</h3>
+                    <h2>6,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2">
+                    <img src="img/cp2.png">
+                    <h3>랜드 콤비네이션 피자</h3>
+                    <h2>8,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-2">
+                    <img src="img/cp3.png">
+                    <h3>페퍼로니 피자</h3>
+                    <h2>7,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2">
+                    <img src="img/cp4.png">
+                    <h3>포테이토 피자</h3>
+                    <h2>9,500원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2">
+                    <img src="img/cp5.png">
+                    <h3>고구마 피자</h3>
+                    <h2>9,500원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-2">
+                    <img src="img/cp6.png">
+                    <h3>불고기 피자</h3>
+                    <h2>9,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2">
+                    <img src="img/cp7.png">
+                    <h3>치킨 텐더 피자</h3>
+                    <h2>11,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2">
+                    <img src="img/cp8.png">
+                    <h3>스테이크 불갈비 피자</h3>
+                    <h2>11,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <!--클래픽피자 메뉴 끝-->
+
+                <!--프리미엄피자 메뉴-->
+                <div class="menu-box1-2-1">
+                    <img src="img/pp1.png">
+                    <h3>달매 골드문</h3>
+                    <h2>14,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-1">
+                    <img src="img/pp2.png">
+                    <h3>달짠 골드문</h3>
+                    <h2>14,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-3">
+                    <img src="img/pp3.png">
+                    <h3>페퍼로니 치즈 폭탄 피자</h3>
+                    <h2>18,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-1">
+                    <img src="img/pp4.png">
+                    <h3>치즈 핵폭탄 피자(치즈 1kg)</h3>
+                    <h2>19,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-1">
+                    <img src="img/pp5.png">
+                    <h3>맵신 피자</h3>
+                    <h2>14,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-3">
+                    <img src="img/pp6.png">
+                    <h3>치폴레 스테이크 피자</h3>
+                    <h2>14,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-1">
+                    <img src="img/pp7.png">
+                    <h3>하와이안 쉬림프 피자</h3>
+                    <h2>12,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-1">
+                    <img src="img/pp8.png">
+                    <h3>몽뻬르 피자</h3>
+                    <h2>15,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-3">
+                    <img src="img/pp9.png">
+                    <h3>크레이지 불새 피자</h3>
+                    <h2>15,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <!--프리미엄피자 메뉴 끝-->
+
+                <!--몬스터피자 메뉴-->
+                <div class="menu-box1-2-2">
+                    <img src="img/mp1.png">
+                    <h3>몬스터 하와이안 쉬림프 피자</h3>
+                    <h2>16,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-2">
+                    <img src="img/mp2.png">
+                    <h3>몬스터 고구마 피자</h3>
+                    <h2>12,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-4">
+                    <img src="img/mp3.png">
+                    <h3>몬스터 불고기 피자</h3>
+                    <h2>13,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-2">
+                    <img src="img/mp4.png">
+                    <h3>몬스터 콤비네이션 피자</h3>
+                    <h2>11,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-2">
+                    <img src="img/mp5.png">
+                    <h3>몬스터 이탈리안 피자</h3>
+                    <h2>10,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-4">
+                    <img src="img/mp6.png">
+                    <h3>몬스터 포테이토 피자</h3>
+                    <h2>12,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <!--몬스터피자 메뉴 끝-->
+
+                <!--사이드 메뉴 -->
+                <div class="menu-box1-2-3">
+                    <img src="img/new-fire.png">
+                    <h3>마닭(불닭발)</h3>
+                    <h2>7,000원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/ma2.png">
+                    <h3>마떡</h3>
+                    <h2>5,000원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-5">
+                    <img src="img/ma3.png">
+                    <h3>치즈 마떡</h3>
+                    <h2>7,000원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/che1.png">
+                    <h3>롱치즈스틱(2개/3개)</h3>
+                    <h2>3,500원/5,000원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/sh1.png">
+                    <h3>통새우링(4개/8개)</h3>
+                    <h2>2,500원/4,500원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-5">
+                    <img src="img/spa1.png">
+                    <h3>치즈 오븐 스파게티</h3>
+                    <h2>4,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/spa2.png">
+                    <h3>케이준 치킨 스파게티</h3>
+                    <h2>5,400원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/spa3.png">
+                    <h3>고구마 스파게티</h3>
+                    <h2>5,400원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-3-5">
+                    <img src="img/ten1.png">
+                    <h3>텐더 치킨(6조각/10조각)</h3>
+                    <h2>5,900원/8,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box1-2-3">
+                    <img src="img/wing1.png">
+                    <h3>로스트 치킨 윙&봉(6조각/10조각)</h3>
+                    <h2>5,900원/8,900원</h2>
+                    <div class="menu-box-2-1">
+                        <img src="img/plus.png">
+                        <p>자세히 보기</p>
+                    </div>
+                </div>
+                <div class="menu-box5">
+
+                </div>
+                <!--사이드 메뉴 끝-->
+
+                <h4>※일부 매장(카페형, 제주, 강화지역, 영천, 세종, 기타)의 경우 메뉴 구성과 가격이 다를 수 있습니다.</h4>
+            </div>
+        </div>
+        <!--메뉴1 끝-->
+
+        <!--무뼈닭발 정보-->
+        <div id="info">
+            <div id="menu-info">
+                <div class="info-img">
+                    <img src="img/new-fire-info.png">
+                </div>
+                <div class="info-text">
+                    <h1>마닭(불닭발)</h1>
+                    <p>매콤한 고추 소스로 불맛을 더한 쫀득쫀득한 영양만점 무뼈 닭발</p>
+                    <h2>7,000<span>원</span></h2>
+                    <h4>원산지</h4>
+                    <p>무뼈닭발(무뼈닭발:국산)</p>
+                </div>
+            </div>
+
+            <div id="info-table">
+                <h4>영양정보</h4>
+                <div class="table-box">
+                    <table border="1px" style="border-collapse: collapse;" class="table1">
+                        <tr>
+                            <td>전체중량(g)</td>
+                            <td>조각기준</td>
+                            <td>중량(g)</td>
+                            <td>열량(Kcal/1회)</td>
+                            <td>당류(g/1회)</td>
+                            <td>단백질(g/1회)</td>
+                            <td>포화지방(g/1회)</td>
+                            <td>나트륨(mg/1회)</td>
+                        </tr>
+                        <tr>
+                            <td>180</td>
+                            <td>180</td>
+                            <td>180</td>
+                            <td>280.35</td>
+                            <td>9.16</td>
+                            <td>38.52</td>
+                            <td>2.54</td>
+                            <td>1257.26</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--하단 버튼-->
+        <div class="btn-box">
+            <button class="btn-allN">전체 영양정보</button>
+            <button class="btn-allO">전체 원산지 정보</button>
+            <button class="btn-allA">알레르기 관련 체크</button>
+
+            <p>※ 표시된 영양 정보는 실험방법 등에 따라 차이가 있을 수도 있습니다.</p>
+            <p>※ 영양정보표 안의 모든 제품 용량은 표준 용량이며 실제 제공 시 다소 차이가 있을 수 있습니다.</p>
+        </div>
+    <div id="back-Box">
+        <a href="menu.html"><button class="btn-back">목록으로</button></a>
+    </div>
+
+</body>

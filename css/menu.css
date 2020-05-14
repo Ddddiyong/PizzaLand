@@ -1,0 +1,485 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.header_wrap {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: solid 1px #ccc;
+}
+#main_header {
+    width: 1200px; height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+#main_header > h1 {
+    position: absolute;
+    left: 420px;
+    top: 20px;
+}
+#gnb {
+    position: absolute;
+    right: 0; 
+    line-height: 100px;
+}
+#gnb > ul > li {
+    float: left;
+    /* display: inline-block; */
+    margin-right: 24px;
+    margin-left: 24px;
+}
+#gnb > ul > li:last-child {margin-right: 0;}
+
+#gnb > ul > li a {color: #828282; font-weight: bold; width: 100px; height: 100px;}
+#gnb > ul > li a:hover {
+    color: #8a5e00; font-weight: bold;
+    transition-duration: 0.2s;
+    border-bottom: 2px solid #8a5e00;
+    
+}
+.gnb-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    margin-left: -15px;
+    background: #ccc;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 37px;
+}
+.gnb-icon:hover {
+    background: #828282;
+}
+
+#top-menu{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+}
+#nav-top{
+    margin: 0 auto;
+    width: 1200px;
+}
+#nav-top > ul > li{
+    height: 30px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+#nav-top a{
+    color: black;
+}
+
+#nav-top li:hover{
+    background: #8a5e00;
+}
+#nav-top li:hover a{
+    color: white;
+}
+
+#visual-img{
+    width: 100%; height: 300px;
+    background: #8a5e00;
+    overflow: hidden;
+}
+#main-menu{
+    width: 100%;
+    background: #eeeeee;
+}
+#nav-menu{
+    width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+#nav-menu > ul > li a{
+    height: 30px;
+    width: 120px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+#nav-menu a{
+    color: black;
+}
+#nav-menu a.selected{
+    background: #f58020;
+    color: white;
+}
+
+#nav-menu a:hover{
+    background: rgba(245, 128, 32, 0.7);
+}
+#nav-menu li:hover a{
+    color: white;
+}
+
+#menu1{
+    width: 100%;
+    height: 800px;
+    transition: 0.4s;
+}
+
+#menu-head{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+}
+#menu1 > #menu-head h4{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: red;
+}
+
+.menu-body h4{float: right; margin-top: 50px;}
+.menu-body{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*신 메뉴 칸*/
+.menu-box3{
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    position: relative;
+}
+.menu-box4{ width: 500px; height: 250px; float: left;}
+.menu-box5{ width: 800px; float: left;}
+.menu-box{
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box2 img{margin-left: 40%; margin-top: 40%;}
+.menu-box2{
+    opacity: 0;
+    width: 386.66px;
+    height: 450px;
+    top: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+.menu-box2:hover{
+    background-color: rgba(255, 103, 0, 0.6);
+    opacity: 1;
+    cursor: pointer;
+}
+.menu-box2 p{
+    text-align: center; color: white; font-weight: bold;
+}
+.menu-box h3,
+.menu-box3 h3,
+.menu-box-1 h3,
+.menu-box1-3 h3,
+.menu-box-1-1 h3,
+.menu-box1-3-1 h3,
+.menu-box-1-2 h3,
+.menu-box1-2 h3,
+.menu-box1-3-2 h3,
+.menu-box1-3-3 h3,
+.menu-box1-2-1 h3,
+.menu-box1-3-4 h3,
+.menu-box1-2-2 h3,
+.menu-box1-2-3 h3,
+.menu-box1-3-5 h3{
+    text-align: center; margin-top: 35px; font-size: 18px;
+}
+.menu-box h2,
+.menu-box3 h2,
+.menu-box-1 h2,
+.menu-box1-3 h2,
+.menu-box-1-1 h2,
+.menu-box1-3-1 h2,
+.menu-box-1-2 h2,
+.menu-box1-2 h2,
+.menu-box1-3-2 h2,
+.menu-box1-3-3 h2,
+.menu-box1-2-1 h2,
+.menu-box1-3-4 h2,
+.menu-box1-2-2 h2,
+.menu-box1-2-3 h2,
+.menu-box1-3-5 h2{
+    text-align: center;font-size: 20px;margin-top: 15px;
+}
+/*신 메뉴 칸 끝*/
+
+/*플러스박스 칸*/
+.menu-box-1{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+.menu-box-2{
+    opacity: 0;
+    width: 386.66px;
+    height: 450px;
+    top: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+.menu-box-2:hover{
+    background-color: rgba(255, 103, 0, 0.6);
+    opacity: 1;
+    cursor: pointer;
+}
+.menu-box-2 p{
+    text-align: center; color: white; font-weight: bold;
+}
+.menu-box-2 img{margin-left: 40%; margin-top: 40%;}
+/*플러스박스 칸 끝*/
+
+/*투탑박스 칸*/
+.menu-box-1-1{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3-1{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+.menu-box-2-1{
+    opacity: 0;
+    width: 386.66px;
+    height: 450px;
+    top: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+.menu-box-2-1:hover{
+    background-color: rgba(255, 103, 0, 0.6);
+    opacity: 1;
+    cursor: pointer;
+}
+.menu-box-2-1 p{
+    text-align: center; color: white; font-weight: bold;
+}
+.menu-box-2-1 img{margin-left: 40%; margin-top: 40%;}
+/*투탑박스 칸 끝*/
+
+/*시카고피자 칸*/
+.menu-box-1-2{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+/*시카고피자 칸 끝*/
+
+/*클래식피자 칸*/
+.menu-box1-2{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3-2{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+/*클래픽피자 칸 끝*/
+
+/*프리미엄피자 칸*/
+.menu-box1-2-1{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3-3{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+/*프리미엄피자 칸 끝*/
+
+/*몬스터피자 칸 끝*/
+.menu-box1-2-2{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3-4{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+/*몬스터피자 칸 끝*/
+
+/**/
+.menu-box1-2-3{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.menu-box1-3-5{
+    display: none;
+    margin-top: 50px;
+    width: 386.66px;
+    height: 450px;
+    background: #ebebeb;
+    float: left;
+    margin-right: 0px;
+    position: relative;
+}
+/**/
+
+/*푸터에용*/
+#footer{
+    width: 100%;
+    height: 500px;
+    background: #ccc;
+    background-repeat: no-repeat;
+}
+
+#footer > #footer-text{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+#footer > #footer-text img{
+    position: absolute;
+    right: 0;
+    filter: drop-shadow(2px 2px 2px #666)
+}
+
+.footer-down{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.footer-down >.fdd1 > ul > li{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-down > .fdd2 > ul > li{
+    float:right;
+    display: block;
+    margin-right: 10px;
+}
+.footer-down > .fdd3 > ul > li{
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+.footer-down p{float: right; margin-right: 10px;}
+.footer-down  ul > li a,.footer-down p{text-shadow: 1px 2px 2px #666; color: white;}
+.footer-down  ul > li:nth-child(6) a{color: black; font-weight: bold; text-shadow: none;}
+.footer-down  ul > li > a > span{
+    color: white;
+    margin-left: 10px;
+}
+
+/*menu-info.html*/
+#menu-info{width: 1200px; height: 400px; margin: 0 auto;}
+#menu-info img{max-width: 100%; height: auto;}
+#menu-info > .info-img{float: left;}
+#menu-info > .info-text{margin-top: 60px;}
+#menu-info > .info-text h1{line-height: 70px;}
+#menu-info > .info-text h2{font-size: 50px; line-height: 150px;}
+#menu-info > .info-text span{font-size: 18px; vertical-align: middle;}
+#menu-info > .info-text p{color: #5d5d5d; line-height: 70px;}
+
+#info-table{margin: 0 auto; width: 1200px;}
+#info-table h4{width: 1200px; float: left; margin-bottom: 10px;}
+.table1{width: 1200px; height: 100px; text-align: center; border-color: #ccc; margin-bottom: 20px;}
+
+.btn-box{width: 1200px; margin:0 auto;}
+.btn-allN,.btn-allO,.btn-allA{width: 200px; height: 40px; font-size: 16px; font-weight: bold; margin-right: 20px; color: #4d4d4d; background: #eee; border: 1px solid #bbb; margin-bottom: 20px;}
+.btn-allN:hover{opacity: 0.5; cursor: pointer;}
+.btn-allO:hover{opacity: 0.5; cursor: pointer;}
+.btn-allA:hover{opacity: 0.5; cursor: pointer;}
+
+.btn-box p{margin-bottom: 10px; font-size: 14px; color: #4d4d4d;}
+#info{height: 580px;}
+
+#back-Box{width:1200px; margin: 0 auto; text-align: center; margin-top: 50px;}
+#back-Box .btn-back{width: 150px; height: 40px; background: #4d4d4d; color: white; border:none; font-weight: bold; cursor: pointer; margin-bottom: 30px;}
+#back-Box .btn-back:hover{opacity: 0.5;}
