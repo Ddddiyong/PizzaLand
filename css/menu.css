@@ -416,7 +416,7 @@ a{text-decoration: none;}
     height: 500px;
     background: #ccc;
     background-repeat: no-repeat;
-    background-image: url('img/footer.jpg');
+    background-image: url('../img/footer.jpg');
 }
 #footer > #footer-text{
     width: 1200px;
